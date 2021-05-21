@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "powered-up-uart-analyzer"
+version = "0.1.0"
+description = ""
+authors = ["David Lechner <david@lechnology.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+saleae = "^0.12.0"
+black = {version = "^21.5b1", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

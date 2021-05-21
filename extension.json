@@ -1,0 +1,13 @@
+{
+  "name": "LEGO Powered Up UART",
+  "apiVersion": "1.0.0",
+  "author": "David Lechner",
+  "version": "0.0.1",
+  "description": "LEGO Powered Up UART I/O devices",
+  "extensions": {
+    "LEGO Powered Up UART": {
+      "type": "HighLevelAnalyzer",
+      "entryPoint": "HighLevelAnalyzer.Hla"
+    }
+  }
+}
